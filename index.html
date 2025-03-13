@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nqobile Chamane - Personal Website</title>
-  
+  <!-- Font Awesome for Social Media Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  
+  <!-- Google Fonts for Better Typography -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     /* General Styles */
@@ -24,7 +24,7 @@
       color: white;
       padding: 60px 20px;
       text-align: center;
-      position: relative; /
+      position: relative; /* For positioning the image */
     }
 
     header h1 {
@@ -137,13 +137,31 @@
       position: absolute;
       top: 20px;
       right: 20px;
-      width: 120px; 
+      width: 120px; /* Adjust size as needed */
       height: auto;
-      border-radius: 50%; 
+      border-radius: 50%; /* Circular image */
       border: 3px solid #e74c3c; /* Red accent border */
     }
 
-    
+    /* Skills and Competencies Section */
+    .skills-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .skills-list li {
+      background: #ecf0f1; /* Light gray background */
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .skills-list li strong {
+      color: #2c3e50; /* Dark blue */
+    }
+
+    /* Responsive Design */
     @media (max-width: 768px) {
       header h1 {
         font-size: 1.8rem;
@@ -163,7 +181,7 @@
       }
 
       .social-links a {
-        font-size: 36px; 
+        font-size: 36px; /* Slightly smaller for mobile */
       }
 
       .container {
@@ -183,7 +201,7 @@
       }
 
       .header-image {
-        width: 90px; 
+        width: 90px; /* Smaller image for mobile */
         top: 10px;
         right: 10px;
       }
@@ -194,7 +212,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        width: 180px;
+        width: 180px; /* Reduced width */
         height: 100vh;
         padding: 25px;
         text-align: left;
@@ -206,12 +224,12 @@
       }
 
       .container {
-        margin-left: 200px; 
-        width: calc(100% - 240px);
+        margin-left: 200px; /* Adjusted for reduced nav width */
+        width: calc(100% - 200px);
       }
 
       .social-links a {
-        font-size: 45px; 
+        font-size: 45px; /* Larger for desktop */
       }
 
       .contact-form button {
@@ -225,6 +243,7 @@
     <div class="container">
       <h1>Nqobile Chamane</h1>
       <p>"WE CANNOT QUIT, AND WE WILL NEVER QUIT"</p>
+      <!-- Add the image here -->
       <img src="C:\Users\OEM\Desktop\NChamane/IMG-20231228-WA0016.jpg" alt="Profile Picture" class="header-image">
     </div>
   </header>
@@ -233,6 +252,7 @@
   <nav>
     <a href="#home">Home</a>
     <a href="#about">About Me</a>
+    <a href="#skills">Skills and Competencies</a>
     <a href="#social-media">Social Media</a>
     <a href="#contact">Contact Me</a>
   </nav>
@@ -258,7 +278,35 @@
       </p>
     </section>
 
-    <!-- Social Media Accounts-->
+    <!-- Skills and Competencies Section -->
+    <section class="section" id="skills">
+      <h2>Skills and Competencies</h2>
+      <ul class="skills-list">
+        <li><strong>Data Capturing</strong></li>
+        <li><strong>Data Analysis</strong></li>
+        <li><strong>Strong Administration/Organizational Skills</strong></li>
+        <li><strong>Attention to Details</strong></li>
+        <li><strong>Computer Literacy</strong></li>
+        <li><strong>Good Communication/Telephonic Skills (Verbal and Written Communication)</strong></li>
+        <li><strong>Time Management</strong></li>
+      </ul>
+      <h3>Computer Skills</h3>
+      <ul class="skills-list">
+        <li><strong>Microsoft Office</strong></li>
+        <li><strong>Javascript</strong></li>
+        <li><strong>Vscode</strong></li>
+        <li><strong>Outlook</strong></li>
+        <li><strong>Github</strong></li>
+        <li><strong>SQL</strong></li>
+        <li><strong>Salesforce</strong></li>
+        <li><strong>SAS</strong></li>
+        <li><strong>R-Studio</strong></li>
+        <li><strong>Arc-GIS</strong></li>
+        <li><strong>Python</strong></li>
+      </ul>
+    </section>
+
+    <!-- Social Media Accounts Section -->
     <section class="section" id="social-media">
       <h2>Social Media Accounts</h2>
       <div class="social-links">
